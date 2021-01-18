@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "899390959018",
+    "project_id": "desafio-teclat-539d5",
+    "storage_bucket": "desafio-teclat-539d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899390959018:android:a323c777b8bb111ffe4fd3",
+        "android_client_info": {
+          "package_name": "com.desafioteclat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899390959018-09mj1fstpmifav393lvvllj3mhlaf4b7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQWc-Kx7WCXWk4qjhtEypUnw4MaBGelYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899390959018-09mj1fstpmifav393lvvllj3mhlaf4b7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "899390959018-bs51mf4c17pl8bn54us7gfuj3logc4bf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.desafioteclat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

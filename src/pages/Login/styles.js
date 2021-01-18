@@ -24,7 +24,7 @@ export const styles = StyleSheet.create({
     marginTop: 15
   },
   forgotButton: {
-    marginVertical: 35
+    marginVertical: 20
   },
   navButtonText: {
     fontSize: 18,
