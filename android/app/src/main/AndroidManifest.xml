@@ -2,7 +2,7 @@
   package="com.desafioteclat2">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" tools:node="remove"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
       android:name=".MainApplication"
@@ -13,8 +13,8 @@
       android:theme="@style/AppTheme">
 
       <meta-data
-     android:name="com.google.android.geo.API_KEY"
-     android:value="AIzaSyD9Fda_CK6Tg-xwC5_a0Z-VXiW_jKnPQOw"/>
+      android:name="com.google.android.geo.API_KEY"
+      android:value="AIzaSyD9Fda_CK6Tg-xwC5_a0Z-VXiW_jKnPQOw"/>
 
       <activity
         android:name=".MainActivity"
