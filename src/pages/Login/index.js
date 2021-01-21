@@ -14,7 +14,7 @@ export default function Login({ navigation }) {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
-  const { login } = useContext(AuthContext)
+  const { login, googleLogin, fbLogin } = useContext(AuthContext)
 
   return (
     <View style={styles.container}>
@@ -52,7 +52,9 @@ export default function Login({ navigation }) {
         btnType="facebook"
         color="#4867aa"
         backgroundColor="#e6eaf4"
-        onPress={() => {}}
+        onPress={() => {
+          fbLogin()
+        }}
       />
 
       <SocialButton
@@ -60,7 +62,9 @@ export default function Login({ navigation }) {
         btnType="google"
         color="#de4d41"
         backgroundColor="#f5e7ea"
-        onPress={() => {}}
+        onPress={() => {
+          googleLogin()
+        }}
       />
 
       <TouchableOpacity

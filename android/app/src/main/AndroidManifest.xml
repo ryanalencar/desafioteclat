@@ -12,6 +12,7 @@
       android:allowBackup="false"
       android:theme="@style/AppTheme">
 
+      <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
       <meta-data
       android:name="com.google.android.geo.API_KEY"
       android:value="AIzaSyD9Fda_CK6Tg-xwC5_a0Z-VXiW_jKnPQOw"/>

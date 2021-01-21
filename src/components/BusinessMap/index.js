@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { StyleSheet, View, Platform, PermissionsAndroid } from 'react-native'
-import MapView, { PROVIDER_GOOGLE } from 'react-native-maps'
+import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps'
 import Geolocation from '@react-native-community/geolocation'
 
 const styles = StyleSheet.create({
@@ -60,7 +60,13 @@ export default function BusinessMap() {
         }}
         provider={PROVIDER_GOOGLE} // remove if not using Google Maps
         style={styles.map}
-      />
+      >
+        <Marker
+          coordinate={{ latitude: initialPos[0], longitude: initialPos[1] }}
+          title="title"
+          description="description"
+        />
+      </MapView>
     </View>
   )
 }

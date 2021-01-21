@@ -14,7 +14,7 @@
       },
       "oauth_client": [
         {
-          "client_id": "899390959018-3teup209050hldf2enr68ts7b0bkmdo0.apps.googleusercontent.com",
+          "client_id": "760152158797-phthe6dop3pfpqqqikd8ge6oko2cihbm.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.desafioteclat2",
@@ -22,7 +22,7 @@
           }
         },
         {
-          "client_id": "899390959018-09mj1fstpmifav393lvvllj3mhlaf4b7.apps.googleusercontent.com",
+          "client_id": "760152158797-phthe6dop3pfpqqqikd8ge6oko2cihbm.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -35,11 +35,11 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "899390959018-09mj1fstpmifav393lvvllj3mhlaf4b7.apps.googleusercontent.com",
+              "client_id": "760152158797-phthe6dop3pfpqqqikd8ge6oko2cihbm.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "899390959018-bs51mf4c17pl8bn54us7gfuj3logc4bf.apps.googleusercontent.com",
+              "client_id": "760152158797-phthe6dop3pfpqqqikd8ge6oko2cihbm.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "com.desafioteclat"
