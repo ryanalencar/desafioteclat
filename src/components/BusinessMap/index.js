@@ -63,8 +63,7 @@ export default function BusinessMap() {
       >
         <Marker
           coordinate={{ latitude: initialPos[0], longitude: initialPos[1] }}
-          title="title"
-          description="description"
+          title="My Location"
         />
       </MapView>
     </View>
